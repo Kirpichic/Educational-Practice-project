@@ -1,0 +1,346 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{499838C7-CCFC-4776-B316-C663BB2568BD}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Rogozin_yp02</RootNamespace>
+    <AssemblyName>Rogozin_yp02</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BouncyCastle.Crypto, Version=1.8.5.0, Culture=neutral, PublicKeyToken=0e99375e54769942">
+      <HintPath>packages\BouncyCastle.1.8.5\lib\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Protobuf, Version=3.14.0.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604, processorArchitecture=MSIL">
+      <HintPath>packages\Google.Protobuf.3.14.0\lib\net45\Google.Protobuf.dll</HintPath>
+    </Reference>
+    <Reference Include="K4os.Compression.LZ4, Version=1.2.6.0, Culture=neutral, PublicKeyToken=2186fa9121ef231d, processorArchitecture=MSIL">
+      <HintPath>packages\K4os.Compression.LZ4.1.2.6\lib\net46\K4os.Compression.LZ4.dll</HintPath>
+    </Reference>
+    <Reference Include="K4os.Compression.LZ4.Streams, Version=1.2.6.0, Culture=neutral, PublicKeyToken=2186fa9121ef231d, processorArchitecture=MSIL">
+      <HintPath>packages\K4os.Compression.LZ4.Streams.1.2.6\lib\net46\K4os.Compression.LZ4.Streams.dll</HintPath>
+    </Reference>
+    <Reference Include="K4os.Hash.xxHash, Version=1.0.6.0, Culture=neutral, PublicKeyToken=32cd54395057cec3, processorArchitecture=MSIL">
+      <HintPath>packages\K4os.Hash.xxHash.1.0.6\lib\net46\K4os.Hash.xxHash.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Word1">
+      <HintPath>D:\Visual Studio 2022\Shared\Visual Studio Tools for Office\PIA\Office15\Microsoft.Office.Interop.Word.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="MySql.Data, Version=8.0.28.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>packages\MySql.Data.8.0.28\lib\net452\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="MySqlConnector, Version=2.0.0.0, Culture=neutral, PublicKeyToken=d33d3e53aa5f8c92, processorArchitecture=MSIL">
+      <HintPath>packages\MySqlConnector.2.1.8\lib\net471\MySqlConnector.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Diagnostics.DiagnosticSource, Version=5.0.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Diagnostics.DiagnosticSource.5.0.1\lib\net46\System.Diagnostics.DiagnosticSource.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Management" />
+    <Reference Include="System.Memory, Version=4.0.1.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Memory.4.5.4\lib\net461\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Runtime.CompilerServices.Unsafe.5.0.0\lib\net45\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.1.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Threading.Tasks.Extensions.4.3.0\lib\portable-net45+win8+wp8+wpa81\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Ubiety.Dns.Core, Version=2.2.1.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>packages\MySql.Data.8.0.28\lib\net452\Ubiety.Dns.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="ZstdNet, Version=1.4.5.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>packages\MySql.Data.8.0.28\lib\net452\ZstdNet.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Администратор\АдминОбнов.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Администратор\АдминОбнов.Designer.cs">
+      <DependentUpon>АдминОбнов.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Администратор\АдминУдал.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Администратор\АдминУдал.Designer.cs">
+      <DependentUpon>АдминУдал.cs</DependentUpon>
+    </Compile>
+    <Compile Include="МедРегистратор\РегОбнов.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="МедРегистратор\РегОбнов.Designer.cs">
+      <DependentUpon>РегОбнов.cs</DependentUpon>
+    </Compile>
+    <Compile Include="МедРегистратор\РегУдал.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="МедРегистратор\РегУдал.Designer.cs">
+      <DependentUpon>РегУдал.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Договара и отчёты\Выплата зарплат\ВыплаченоЗарплатГод.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Договара и отчёты\Выплата зарплат\ВыплаченоЗарплатГод.Designer.cs">
+      <DependentUpon>ВыплаченоЗарплатГод.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Договара и отчёты\Выплата зарплат\ВыплаченоЗарплатМесяц.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Договара и отчёты\Выплата зарплат\ВыплаченоЗарплатМесяц.Designer.cs">
+      <DependentUpon>ВыплаченоЗарплатМесяц.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Договара и отчёты\Договара\Договор.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Договара и отчёты\Договара\Договор.Designer.cs">
+      <DependentUpon>Договор.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Администратор\АдминДоб.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Администратор\АдминДоб.Designer.cs">
+      <DependentUpon>АдминДоб.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Вход\Вход.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Вход\Вход.Designer.cs">
+      <DependentUpon>Вход.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Администратор\АдминОсн.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Администратор\АдминОсн.Designer.cs">
+      <DependentUpon>АдминОсн.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ЗавОтделения\ЗавОсн.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ЗавОтделения\ЗавОсн.Designer.cs">
+      <DependentUpon>ЗавОсн.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Договара и отчёты\Оказаные услуги\ОказанныеУслугиМесяц.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Договара и отчёты\Оказаные услуги\ОказанныеУслугиМесяц.Designer.cs">
+      <DependentUpon>ОказанныеУслугиМесяц.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Договара и отчёты\Оказаные услуги\ОказанныеУслугиГод.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Договара и отчёты\Оказаные услуги\ОказанныеУслугиГод.Designer.cs">
+      <DependentUpon>ОказанныеУслугиГод.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Договара и отчёты\Расход вкцины\РасходВакцинГод.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Договара и отчёты\Расход вкцины\РасходВакцинГод.Designer.cs">
+      <DependentUpon>РасходВакцинГод.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Договара и отчёты\Расход вкцины\РасходВакциныМесяц.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Договара и отчёты\Расход вкцины\РасходВакциныМесяц.Designer.cs">
+      <DependentUpon>РасходВакциныМесяц.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ЗавОтделения\ЗавПросмотрДоговоров.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ЗавОтделения\ЗавПросмотрДоговоров.Designer.cs">
+      <DependentUpon>ЗавПросмотрДоговоров.cs</DependentUpon>
+    </Compile>
+    <Compile Include="МедРегистратор\РегДоб.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="МедРегистратор\РегДоб.Designer.cs">
+      <DependentUpon>РегДоб.cs</DependentUpon>
+    </Compile>
+    <Compile Include="МедРегистратор\РегОсн.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="МедРегистратор\РегОсн.Designer.cs">
+      <DependentUpon>РегОсн.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Договара и отчёты\Прививки\СделаноПрививокГод.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Договара и отчёты\Прививки\СделаноПрививокГод.Designer.cs">
+      <DependentUpon>СделаноПрививокГод.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Договара и отчёты\Прививки\СделаноПрививокМесяц.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Договара и отчёты\Прививки\СделаноПрививокМесяц.Designer.cs">
+      <DependentUpon>СделаноПрививокМесяц.cs</DependentUpon>
+    </Compile>
+    <Compile Include="МедРегистратор\РегПросмотрДоговоров.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="МедРегистратор\РегПросмотрДоговоров.Designer.cs">
+      <DependentUpon>РегПросмотрДоговоров.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Администратор\АдминОбнов.resx">
+      <DependentUpon>АдминОбнов.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Администратор\АдминУдал.resx">
+      <DependentUpon>АдминУдал.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Договара и отчёты\Выплата зарплат\ВыплаченоЗарплатГод.resx">
+      <DependentUpon>ВыплаченоЗарплатГод.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Договара и отчёты\Выплата зарплат\ВыплаченоЗарплатМесяц.resx">
+      <DependentUpon>ВыплаченоЗарплатМесяц.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Договара и отчёты\Договара\Договор.resx">
+      <DependentUpon>Договор.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Администратор\АдминДоб.resx">
+      <DependentUpon>АдминДоб.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Вход\Вход.resx">
+      <DependentUpon>Вход.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Администратор\АдминОсн.resx">
+      <DependentUpon>АдминОсн.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ЗавОтделения\ЗавОсн.resx">
+      <DependentUpon>ЗавОсн.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Договара и отчёты\Оказаные услуги\ОказанныеУслугиМесяц.resx">
+      <DependentUpon>ОказанныеУслугиМесяц.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Договара и отчёты\Оказаные услуги\ОказанныеУслугиГод.resx">
+      <DependentUpon>ОказанныеУслугиГод.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Договара и отчёты\Расход вкцины\РасходВакцинГод.resx">
+      <DependentUpon>РасходВакцинГод.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Договара и отчёты\Расход вкцины\РасходВакциныМесяц.resx">
+      <DependentUpon>РасходВакциныМесяц.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ЗавОтделения\ЗавПросмотрДоговоров.resx">
+      <DependentUpon>ЗавПросмотрДоговоров.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="МедРегистратор\РегДоб.resx">
+      <DependentUpon>РегДоб.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="МедРегистратор\РегОсн.resx">
+      <DependentUpon>РегОсн.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Договара и отчёты\Прививки\СделаноПрививокГод.resx">
+      <DependentUpon>СделаноПрививокГод.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Договара и отчёты\Прививки\СделаноПрививокМесяц.resx">
+      <DependentUpon>СделаноПрививокМесяц.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="МедРегистратор\РегПросмотрДоговоров.resx">
+      <DependentUpon>РегПросмотрДоговоров.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="МедРегистратор\РегУдал.resx">
+      <DependentUpon>РегУдал.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Word">
+      <Guid>{00020905-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>8</VersionMajor>
+      <VersionMinor>7</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

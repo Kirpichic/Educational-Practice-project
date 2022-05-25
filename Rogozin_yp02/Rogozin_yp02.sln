@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32505.173
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rogozin_yp02", "Rogozin_yp02.csproj", "{499838C7-CCFC-4776-B316-C663BB2568BD}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup_Rubrum_Crucis", "..\Setup_Rubrum_Crucis\Setup_Rubrum_Crucis.vdproj", "{13C96A45-1BA9-4CE7-8E10-1BE25E640CED}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Rubrum crucis", "..\Rubrum crucis\Rubrum crucis.vdproj", "{B7535E7A-2061-4077-ABBD-7C29D005296D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{499838C7-CCFC-4776-B316-C663BB2568BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{499838C7-CCFC-4776-B316-C663BB2568BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{499838C7-CCFC-4776-B316-C663BB2568BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{499838C7-CCFC-4776-B316-C663BB2568BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13C96A45-1BA9-4CE7-8E10-1BE25E640CED}.Debug|Any CPU.ActiveCfg = Debug
+		{13C96A45-1BA9-4CE7-8E10-1BE25E640CED}.Release|Any CPU.ActiveCfg = Release
+		{B7535E7A-2061-4077-ABBD-7C29D005296D}.Debug|Any CPU.ActiveCfg = Debug
+		{B7535E7A-2061-4077-ABBD-7C29D005296D}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8543D0FB-5E13-4CA0-AB8E-9BB9F3281AE7}
+	EndGlobalSection
+EndGlobal

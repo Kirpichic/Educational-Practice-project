@@ -1,0 +1,150 @@
+C:\Users\students\source\repos\Rogozin_yp02\bin\Debug\Rogozin_yp02.exe.config
+C:\Users\students\source\repos\Rogozin_yp02\bin\Debug\Rogozin_yp02.exe
+C:\Users\students\source\repos\Rogozin_yp02\bin\Debug\Rogozin_yp02.pdb
+C:\Users\students\source\repos\Rogozin_yp02\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\students\source\repos\Rogozin_yp02\bin\Debug\Google.Protobuf.dll
+C:\Users\students\source\repos\Rogozin_yp02\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\students\source\repos\Rogozin_yp02\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\students\source\repos\Rogozin_yp02\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\students\source\repos\Rogozin_yp02\bin\Debug\MySql.Data.dll
+C:\Users\students\source\repos\Rogozin_yp02\bin\Debug\MySqlConnector.dll
+C:\Users\students\source\repos\Rogozin_yp02\bin\Debug\System.Buffers.dll
+C:\Users\students\source\repos\Rogozin_yp02\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\students\source\repos\Rogozin_yp02\bin\Debug\System.Memory.dll
+C:\Users\students\source\repos\Rogozin_yp02\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\students\source\repos\Rogozin_yp02\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\students\source\repos\Rogozin_yp02\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\students\source\repos\Rogozin_yp02\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\students\source\repos\Rogozin_yp02\bin\Debug\ZstdNet.dll
+C:\Users\students\source\repos\Rogozin_yp02\bin\Debug\Google.Protobuf.pdb
+C:\Users\students\source\repos\Rogozin_yp02\bin\Debug\Google.Protobuf.xml
+C:\Users\students\source\repos\Rogozin_yp02\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\students\source\repos\Rogozin_yp02\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\students\source\repos\Rogozin_yp02\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\students\source\repos\Rogozin_yp02\bin\Debug\MySql.Data.xml
+C:\Users\students\source\repos\Rogozin_yp02\bin\Debug\MySqlConnector.xml
+C:\Users\students\source\repos\Rogozin_yp02\bin\Debug\System.Buffers.xml
+C:\Users\students\source\repos\Rogozin_yp02\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\students\source\repos\Rogozin_yp02\bin\Debug\System.Memory.xml
+C:\Users\students\source\repos\Rogozin_yp02\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\students\source\repos\Rogozin_yp02\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\students\source\repos\Rogozin_yp02\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\students\source\repos\Rogozin_yp02\obj\Debug\Rogozin_yp02.csprojAssemblyReference.cache
+C:\Users\students\source\repos\Rogozin_yp02\obj\Debug\Rogozin_yp02.Properties.Resources.resources
+C:\Users\students\source\repos\Rogozin_yp02\obj\Debug\Rogozin_yp02.csproj.GenerateResource.cache
+C:\Users\students\source\repos\Rogozin_yp02\obj\Debug\Rogozin_yp02.csproj.CoreCompileInputs.cache
+C:\Users\students\source\repos\Rogozin_yp02\obj\Debug\Rogozin_yp02.csproj.CopyComplete
+C:\Users\students\source\repos\Rogozin_yp02\obj\Debug\Rogozin_yp02.exe
+C:\Users\students\source\repos\Rogozin_yp02\obj\Debug\Rogozin_yp02.pdb
+C:\Users\students\source\repos\Rogozin_yp02\obj\Debug\Rogozin_yp02.Enter.resources
+C:\Users\students\source\repos\Rogozin_yp02\obj\Debug\Rogozin_yp02.АдминОсн.resources
+C:\Users\students\source\repos\Rogozin_yp02\obj\Debug\Rogozin_yp02.ЗавОсн.resources
+C:\Users\students\source\repos\Rogozin_yp02\obj\Debug\Rogozin_yp02.РегОсн.resources
+C:\Users\students\source\repos\Rogozin_yp02\obj\Debug\Rogozin_yp02.АдминДоб.resources
+C:\Users\students\Desktop\Rogozin_yp02\bin\Debug\Rogozin_yp02.exe.config
+C:\Users\students\Desktop\Rogozin_yp02\bin\Debug\Rogozin_yp02.exe
+C:\Users\students\Desktop\Rogozin_yp02\bin\Debug\Rogozin_yp02.pdb
+C:\Users\students\Desktop\Rogozin_yp02\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\students\Desktop\Rogozin_yp02\bin\Debug\Google.Protobuf.dll
+C:\Users\students\Desktop\Rogozin_yp02\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\students\Desktop\Rogozin_yp02\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\students\Desktop\Rogozin_yp02\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\students\Desktop\Rogozin_yp02\bin\Debug\MySql.Data.dll
+C:\Users\students\Desktop\Rogozin_yp02\bin\Debug\MySqlConnector.dll
+C:\Users\students\Desktop\Rogozin_yp02\bin\Debug\System.Buffers.dll
+C:\Users\students\Desktop\Rogozin_yp02\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\students\Desktop\Rogozin_yp02\bin\Debug\System.Memory.dll
+C:\Users\students\Desktop\Rogozin_yp02\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\students\Desktop\Rogozin_yp02\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\students\Desktop\Rogozin_yp02\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\students\Desktop\Rogozin_yp02\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\students\Desktop\Rogozin_yp02\bin\Debug\ZstdNet.dll
+C:\Users\students\Desktop\Rogozin_yp02\bin\Debug\Google.Protobuf.pdb
+C:\Users\students\Desktop\Rogozin_yp02\bin\Debug\Google.Protobuf.xml
+C:\Users\students\Desktop\Rogozin_yp02\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\students\Desktop\Rogozin_yp02\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\students\Desktop\Rogozin_yp02\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\students\Desktop\Rogozin_yp02\bin\Debug\MySql.Data.xml
+C:\Users\students\Desktop\Rogozin_yp02\bin\Debug\MySqlConnector.xml
+C:\Users\students\Desktop\Rogozin_yp02\bin\Debug\System.Buffers.xml
+C:\Users\students\Desktop\Rogozin_yp02\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\students\Desktop\Rogozin_yp02\bin\Debug\System.Memory.xml
+C:\Users\students\Desktop\Rogozin_yp02\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\students\Desktop\Rogozin_yp02\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\students\Desktop\Rogozin_yp02\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\students\Desktop\Rogozin_yp02\obj\Debug\Rogozin_yp02.csprojAssemblyReference.cache
+C:\Users\students\Desktop\Rogozin_yp02\obj\Debug\Rogozin_yp02.Договор.resources
+C:\Users\students\Desktop\Rogozin_yp02\obj\Debug\Rogozin_yp02.АдминДоб.resources
+C:\Users\students\Desktop\Rogozin_yp02\obj\Debug\Rogozin_yp02.Enter.resources
+C:\Users\students\Desktop\Rogozin_yp02\obj\Debug\Rogozin_yp02.АдминОсн.resources
+C:\Users\students\Desktop\Rogozin_yp02\obj\Debug\Rogozin_yp02.ЗавОсн.resources
+C:\Users\students\Desktop\Rogozin_yp02\obj\Debug\Rogozin_yp02.РегОсн.resources
+C:\Users\students\Desktop\Rogozin_yp02\obj\Debug\Rogozin_yp02.Properties.Resources.resources
+C:\Users\students\Desktop\Rogozin_yp02\obj\Debug\Rogozin_yp02.csproj.GenerateResource.cache
+C:\Users\students\Desktop\Rogozin_yp02\obj\Debug\Rogozin_yp02.csproj.CoreCompileInputs.cache
+C:\Users\students\Desktop\Rogozin_yp02\obj\Debug\Rogozin_yp02.csproj.CopyComplete
+C:\Users\students\Desktop\Rogozin_yp02\obj\Debug\Rogozin_yp02.exe
+C:\Users\students\Desktop\Rogozin_yp02\obj\Debug\Rogozin_yp02.pdb
+C:\Users\students\Desktop\Rogozin_yp02\obj\Debug\Rogozin_yp02.ОказанныеУслугиМесяц.resources
+C:\Users\students\Desktop\Rogozin_yp02\obj\Debug\Rogozin_yp02.ОказанныеУслугиГод.resources
+C:\Users\students\Desktop\Rogozin_yp02\obj\Debug\Rogozin_yp02.РасходВакциныМесяц.resources
+G:\УП02 18-05-22\Rogozin_yp02\bin\Debug\Rogozin_yp02.exe.config
+G:\УП02 18-05-22\Rogozin_yp02\bin\Debug\Rogozin_yp02.exe
+G:\УП02 18-05-22\Rogozin_yp02\bin\Debug\Rogozin_yp02.pdb
+G:\УП02 18-05-22\Rogozin_yp02\bin\Debug\BouncyCastle.Crypto.dll
+G:\УП02 18-05-22\Rogozin_yp02\bin\Debug\Google.Protobuf.dll
+G:\УП02 18-05-22\Rogozin_yp02\bin\Debug\K4os.Compression.LZ4.dll
+G:\УП02 18-05-22\Rogozin_yp02\bin\Debug\K4os.Compression.LZ4.Streams.dll
+G:\УП02 18-05-22\Rogozin_yp02\bin\Debug\K4os.Hash.xxHash.dll
+G:\УП02 18-05-22\Rogozin_yp02\bin\Debug\MySql.Data.dll
+G:\УП02 18-05-22\Rogozin_yp02\bin\Debug\MySqlConnector.dll
+G:\УП02 18-05-22\Rogozin_yp02\bin\Debug\System.Buffers.dll
+G:\УП02 18-05-22\Rogozin_yp02\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+G:\УП02 18-05-22\Rogozin_yp02\bin\Debug\System.Memory.dll
+G:\УП02 18-05-22\Rogozin_yp02\bin\Debug\System.Numerics.Vectors.dll
+G:\УП02 18-05-22\Rogozin_yp02\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+G:\УП02 18-05-22\Rogozin_yp02\bin\Debug\System.Threading.Tasks.Extensions.dll
+G:\УП02 18-05-22\Rogozin_yp02\bin\Debug\Ubiety.Dns.Core.dll
+G:\УП02 18-05-22\Rogozin_yp02\bin\Debug\ZstdNet.dll
+G:\УП02 18-05-22\Rogozin_yp02\bin\Debug\Google.Protobuf.pdb
+G:\УП02 18-05-22\Rogozin_yp02\bin\Debug\Google.Protobuf.xml
+G:\УП02 18-05-22\Rogozin_yp02\bin\Debug\K4os.Compression.LZ4.xml
+G:\УП02 18-05-22\Rogozin_yp02\bin\Debug\K4os.Compression.LZ4.Streams.xml
+G:\УП02 18-05-22\Rogozin_yp02\bin\Debug\K4os.Hash.xxHash.xml
+G:\УП02 18-05-22\Rogozin_yp02\bin\Debug\MySql.Data.xml
+G:\УП02 18-05-22\Rogozin_yp02\bin\Debug\MySqlConnector.xml
+G:\УП02 18-05-22\Rogozin_yp02\bin\Debug\System.Buffers.xml
+G:\УП02 18-05-22\Rogozin_yp02\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+G:\УП02 18-05-22\Rogozin_yp02\bin\Debug\System.Memory.xml
+G:\УП02 18-05-22\Rogozin_yp02\bin\Debug\System.Numerics.Vectors.xml
+G:\УП02 18-05-22\Rogozin_yp02\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+G:\УП02 18-05-22\Rogozin_yp02\bin\Debug\System.Threading.Tasks.Extensions.xml
+G:\УП02 18-05-22\Rogozin_yp02\obj\Debug\Rogozin_yp02.csproj.AssemblyReference.cache
+G:\УП02 18-05-22\Rogozin_yp02\obj\Debug\Rogozin_yp02.csproj.SuggestedBindingRedirects.cache
+G:\УП02 18-05-22\Rogozin_yp02\obj\Debug\Rogozin_yp02.Договор.resources
+G:\УП02 18-05-22\Rogozin_yp02\obj\Debug\Rogozin_yp02.АдминДоб.resources
+G:\УП02 18-05-22\Rogozin_yp02\obj\Debug\Rogozin_yp02.Enter.resources
+G:\УП02 18-05-22\Rogozin_yp02\obj\Debug\Rogozin_yp02.АдминОсн.resources
+G:\УП02 18-05-22\Rogozin_yp02\obj\Debug\Rogozin_yp02.ЗавОсн.resources
+G:\УП02 18-05-22\Rogozin_yp02\obj\Debug\Rogozin_yp02.ОказанныеУслугиМесяц.resources
+G:\УП02 18-05-22\Rogozin_yp02\obj\Debug\Rogozin_yp02.ОказанныеУслугиГод.resources
+G:\УП02 18-05-22\Rogozin_yp02\obj\Debug\Rogozin_yp02.РасходВакциныМесяц.resources
+G:\УП02 18-05-22\Rogozin_yp02\obj\Debug\Rogozin_yp02.РегОсн.resources
+G:\УП02 18-05-22\Rogozin_yp02\obj\Debug\Rogozin_yp02.Properties.Resources.resources
+G:\УП02 18-05-22\Rogozin_yp02\obj\Debug\Rogozin_yp02.csproj.GenerateResource.cache
+G:\УП02 18-05-22\Rogozin_yp02\obj\Debug\Rogozin_yp02.csproj.CoreCompileInputs.cache
+G:\УП02 18-05-22\Rogozin_yp02\obj\Debug\Rogozin_yp02.csproj.CopyComplete
+G:\УП02 18-05-22\Rogozin_yp02\obj\Debug\Rogozin_yp02.exe
+G:\УП02 18-05-22\Rogozin_yp02\obj\Debug\Rogozin_yp02.pdb
+G:\УП02 18-05-22\Rogozin_yp02\obj\Debug\Rogozin_yp02.РасходВакцинГод.resources
+G:\УП02 18-05-22\Rogozin_yp02\obj\Debug\Rogozin_yp02.ВыплаченоЗарплатГод.resources
+G:\УП02 18-05-22\Rogozin_yp02\obj\Debug\Rogozin_yp02.ВыплаченоЗарплатМесяц.resources
+G:\УП02 18-05-22\Rogozin_yp02\obj\Debug\Rogozin_yp02.СделаноПрививокГод.resources
+G:\УП02 18-05-22\Rogozin_yp02\obj\Debug\Rogozin_yp02.СделаноПрививокМесяц.resources
+G:\УП02 18-05-22\Rogozin_yp02\obj\Debug\Rogozin_yp02.ЗавОтделения.ЗавПросмотрДоговоров.resources
+G:\УП02 18-05-22\Rogozin_yp02\obj\Debug\Rogozin_yp02.МедРегистратор.РегДоб.resources
+G:\УП02 18-05-22\Rogozin_yp02\obj\Debug\Rogozin_yp02.МедРегистратор.РегПросмотрДоговоров.resources
+G:\УП02 18-05-22\Rogozin_yp02\obj\Debug\Rogozin_yp02.Администратор.АдминОбнов.resources
+G:\УП02 18-05-22\Rogozin_yp02\obj\Debug\Rogozin_yp02.Администратор.АдминУдал.resources
+G:\УП02 18-05-22\Rogozin_yp02\obj\Debug\Rogozin_yp02.Администратор.РегУдал.resources
+G:\УП02 18-05-22\Rogozin_yp02\obj\Debug\Rogozin_yp02.csproj.ResolveComReference.cache
